@@ -199,13 +199,14 @@ header li {
 
 #project {
     padding-top: 90px;
-    height: 500px;
+    height: 700px;
     width: 100%;
     /* background-color:rgb(228, 221, 197); */
     /* background-color:#729040; */
     background-color:rgb(69, 70, 71);;
     text-align: center;
     margin:auto;
+    overflow: hidden;
         /* border-color: chartreuse;
     border-style: solid; */
 }
@@ -213,11 +214,45 @@ header li {
 #project h2 { 
     text-align: auto;
     color: lightgray;
+    margin:auto;
+}
+
+#project-details {
+    float:auto;
+    margin:auto;
+    width:1500px;
+    overflow: hidden;
 }
 
 #project p {
     text-align: auto;
+    float:left;
+    margin:auto;
+    padding:150px 100px;
+    
     color: lightgray;
+    font-size: larger;
+}
+
+#project button {
+    width: 120px;
+    height:50px;
+    float:left;
+    position:relative;
+    top:250px;
+    left:-425px;
+}
+
+
+#project img {
+    float:auto;
+    /* position:relative; */
+    margin:auto;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-left:50px;
+    overflow: hidden;
+    /* left: 200px; */
 }
 
 
